@@ -49,7 +49,7 @@ const dashboardRoutes = [
   },
   {
     path: "/table",
-    name: "Table List",
+    name: "Auction Form",
     icon: "nc-icon nc-notes",
     component: TableList,
     layout: "/admin"

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Form, Button, Container } from "react-bootstrap";
 import axios from "axios";
 
-function TableList() {
+function ProductUploadForm() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [imageUrl, setImageUrl] = useState("");
@@ -132,4 +132,4 @@ function TableList() {
     </Container>
   );
 }
-export default TableList;
+export default ProductUploadForm;
